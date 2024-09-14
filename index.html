@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript va HTML</title>
+</head>
+<body>
+    <h1 id="title">Salom, dunyo!</h1>
+    <button onclick="changeText()">Matnni o'zgartirish</button>
+
+    <script>
+        // JavaScript function to change the text
+        function changeText() {
+            let title = document.getElementById("title");
+            title.innerHTML = "Matn o'zgardi!";
+        }
+    </script>
+</body>
+</html>
